@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -1151,7 +1151,7 @@
 		"compilationTarget": {
 			"NiggaCoin.sol": "NiggaCoin"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -1396,11 +1396,11 @@
 			]
 		},
 		"NiggaCoin.sol": {
-			"keccak256": "0x39abeae00ff04cbd508b836e3e9c75dbbdf29756cbe10c71eb391d9add1e3347",
+			"keccak256": "0x943f68b2eed5a8580d78ea00883b4b722d738ea394090a6158d8b6d90f08b822",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f987c92eb54b90745779acfaaff4cc344ab19f5b4fc21d7ee9ae0067d884d840",
-				"dweb:/ipfs/QmTa5R7K7qCDSPQzCXpD4Zt2vtsBPq8fbnfURKH2xR7EZ9"
+				"bzz-raw://dcce8fef0ee910e02d7f26927dbf045228be5bb44da801572d71328bf0b8ba96",
+				"dweb:/ipfs/QmQ5rknXQAvyGQ5ocfpNLqXDB39n4q9LBXToDKgu9m3VwH"
 			]
 		}
 	},

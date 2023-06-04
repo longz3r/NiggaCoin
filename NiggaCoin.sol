@@ -12,7 +12,9 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol";
 
 /// @custom:security-contact niggacoin@longcraft.xyz
 contract NiggaCoin is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, Pausable, ERC20Permit, ERC20Votes, ERC20FlashMint {
-    constructor() ERC20("NiggaCoin", "NGC") ERC20Permit("NiggaCoin") {}
+    constructor() ERC20("NiggaCoin", "NGC") ERC20Permit("NiggaCoin") {
+        _mint(msg.sender, 696969 * 10 ** decimals());
+    }
 
     function snapshot() public onlyOwner {
         _snapshot();
